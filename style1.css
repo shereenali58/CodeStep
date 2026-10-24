@@ -1620,7 +1620,71 @@ font-size: 45px;
     }
 }
 
-/* الموبايل - تم تعديل المقاسات لتجنب الانكماش وضبط العرض */
+
+
+
+/* ==================================
+   RESPONSIVE DESIGN - CODESTEP
+   الحاسبة والتابلت والموبايل
+   ================================== */
+
+/* منع العناصر من تجاوز عرض الشاشة */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    width: 100%;
+    min-width: 0;
+    margin: 0;
+}
+
+img,
+video,
+iframe {
+    max-width: 100%;
+}
+
+/* الشاشات المتوسطة: التابلت */
+@media (max-width: 900px) {
+    .lesson,
+    .lesson-card {
+        width: 94%;
+        max-width: 100%;
+        padding: 25px;
+        margin: 25px auto;
+    }
+
+    .lesson-content h2 {
+        font-size: 27px;
+    }
+
+    .lesson-content > p {
+        font-size: 18px;
+    }
+
+    .video-card iframe {
+        height: 320px;
+    }
+
+    .certificate-section {
+        width: 95%;
+    }
+
+    .certificate {
+        padding: 30px 25px;
+    }
+}
+
+/* الموبايل */
 @media (max-width: 600px) {
     body {
         font-size: 16px;
@@ -1630,19 +1694,18 @@ font-size: 45px;
     /* صناديق الدروس */
     .lesson,
     .lesson-card {
-        width: 100%;
+        width: 94%;
         max-width: 100%;
-        margin: 12px 0;
-        padding: 15px 12px;
-        border-radius: 12px;
-        box-sizing: border-box;
+        margin: 18px auto;
+        padding: 18px 15px;
+        border-radius: 17px;
     }
 
     .lesson-number {
-        width: 40px;
-        height: 40px;
-        font-size: 18px;
-        margin-bottom: 12px;
+        width: 44px;
+        height: 44px;
+        font-size: 21px;
+        margin-bottom: 15px;
     }
 
     .lesson-content {
@@ -1651,14 +1714,14 @@ font-size: 45px;
     }
 
     .lesson-content h2 {
-        font-size: 20px;
-        line-height: 1.5;
+        font-size: 23px;
+        line-height: 1.6;
     }
 
     .lesson-content > p {
-        font-size: 15px;
-        line-height: 1.7;
-        margin-bottom: 18px;
+        font-size: 17px;
+        line-height: 1.9;
+        margin-bottom: 22px;
     }
 
     /* أمثلة الأكواد */
@@ -1666,40 +1729,37 @@ font-size: 45px;
     .quiz-card,
     .question-card,
     .video-card {
-        width: 100%;
-        max-width: 100%;
-        padding: 15px 10px;
-        margin-bottom: 15px;
-        border-radius: 12px;
-        box-sizing: border-box;
+        padding: 17px 13px;
+        margin-bottom: 18px;
+        border-radius: 14px;
     }
 
     .code-example h3,
     .quiz-card h3,
     .question-card h3,
     .video-card h3 {
-        font-size: 18px;
-        line-height: 1.5;
+        font-size: 20px;
+        line-height: 1.6;
     }
 
     .code-example p,
     .quiz-card > p,
     .question-card p,
     .video-card p {
-        font-size: 15px;
-        line-height: 1.7;
+        font-size: 16px;
+        line-height: 1.9;
     }
 
     .code-example pre {
         max-width: 100%;
-        padding: 10px 8px;
-        font-size: 13px;
+        padding: 13px 10px;
+        font-size: 14px;
         overflow-x: auto;
         white-space: pre;
     }
 
     .code-example code {
-        font-size: 13px;
+        font-size: 14px;
     }
 
     /* خيارات الأسئلة */
@@ -1707,13 +1767,12 @@ font-size: 45px;
     .lesson-card .option {
         width: 100%;
         min-width: 0;
-        padding: 12px 10px;
-        margin-bottom: 8px;
-        font-size: 14px;
-        line-height: 1.5;
+        padding: 13px 10px;
+        margin-bottom: 10px;
+        font-size: 15px;
+        line-height: 1.7;
         white-space: normal;
         overflow-wrap: anywhere;
-        box-sizing: border-box;
     }
 
     .quiz-card .option input {
@@ -1723,19 +1782,16 @@ font-size: 45px;
     /* الأزرار */
     .check-btn,
     .complete-task button {
-        width: 100%;
         max-width: 100%;
-        padding: 12px 15px;
-        font-size: 15px;
+        padding: 12px 20px;
+        font-size: 16px;
         white-space: normal;
-        box-sizing: border-box;
     }
 
     .answer-input {
         width: 100%;
         max-width: 100%;
-        font-size: 15px;
-        box-sizing: border-box;
+        font-size: 16px;
     }
 
     /* الفيديو */
@@ -1753,79 +1809,72 @@ font-size: 45px;
 
     /* الشهادة */
     .certificate-section {
-        width: 100%;
-        margin: 15px auto;
-        box-sizing: border-box;
+        width: 95%;
+        margin: 25px auto;
     }
 
     .certificate-form {
-        padding: 15px 10px;
+        padding: 20px 13px;
     }
 
     .certificate {
-        width: 100%;
-        padding: 20px 10px;
-        outline-offset: -4px;
-        box-sizing: border-box;
+        padding: 28px 15px;
+        outline-offset: -8px;
     }
 
     .certificate-top {
         flex-direction: column;
-        gap: 12px;
+        gap: 18px;
         text-align: center;
     }
 
     .certificate-motto {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .certificate-medal {
-        width: 60px;
-        height: 60px;
-        margin: 15px auto;
+        width: 75px;
+        height: 75px;
+        margin: 20px auto;
     }
 
     .certificate-medal span {
-        font-size: 26px;
+        font-size: 32px;
     }
 
     .certificate-title {
-        font-size: 21px;
-        line-height: 1.5;
+        font-size: 25px;
+        line-height: 1.7;
     }
 
     .certificate-intro,
     .certificate-success {
-        font-size: 15px;
-        line-height: 1.7;
+        font-size: 17px;
+        line-height: 1.9;
     }
 
     .certificate-student {
-        font-size: 22px;
+        font-size: 27px;
     }
 
     .completed-courses {
-        gap: 6px;
-        flex-wrap: wrap;
-        justify-content: center;
+        gap: 8px;
     }
 
     .completed-courses span {
         min-width: 0;
-        padding: 8px 12px;
-        font-size: 15px;
+        padding: 9px 14px;
+        font-size: 18px;
     }
 
     .certificate-message {
-        font-size: 14px;
-        line-height: 1.7;
+        font-size: 15px;
+        line-height: 1.9;
     }
 
     .certificate-footer {
         flex-direction: column;
         align-items: center;
-        gap: 15px;
+        gap: 22px;
     }
 }
-
-
