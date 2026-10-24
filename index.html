@@ -1,0 +1,3318 @@
+<!DOCTYPE html>
+<html lang="ar" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>codeStep</title>
+        <link  rel="stylesheet" href="style1.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <nav class="navbar">
+
+            <div class="logo">
+                code<p>step</p>
+            </div>
+            <ul class="nav-links">
+                <li ><a href="#home" >الرئيسية</a></li>
+              <li ><a href="#about"> عن المنصة</a></li>
+                <li ><a href="#courses"> الدورات</a></li>
+
+            </ul>
+            
+        </nav>
+            
+         <!-- زر فتح وإغلاق القائمة -->
+<button class="sidebar-toggle-btn" onclick="toggleSidebar()">📚 القائمة السريعة</button>
+
+<!-- القائمة الجانبية الشاملة لدروس HTML و CSS -->
+<aside id="mySidebar" class="sidebar">
+    <h3>دروس HTML</h3>
+    <ul>
+        <li><a href="#html-lesson-1">1. مقدمة عن HTML</a></li>
+        <li><a href="#html-lesson-2">2. نصوص وعناوين</a></li>
+        <li><a href="#html-lesson-3">3. الروابط والصور</a></li>
+        <li><a href="#html-lesson-4">4. القوائم</a></li>
+        <li><a href="#html-lesson-5">5. النماذج (Forms)</a></li>
+        <li><a href="#html-lesson-6">6. Class و ID</a></li>
+    </ul>
+
+    <h3>دروس CSS</h3>
+    <ul>
+        <li><a href="#css-lesson-1">1. إضافة الخلفية</a></li>
+        <li><a href="#css-lesson-2">2. تغيير لون النص</a></li>
+        <li><a href="#css-lesson-3">3. تغيير حجم النص</a></li>
+        <li><a href="#css-lesson-4">4. إضافة الحدود</a></li>
+        <li><a href="#css-lesson-5">5. تدوير الزوايا</a></li>
+        <li><a href="#css-lesson-6">6. المسافة الداخلية</a></li>
+        <li><a href="#css-lesson-7">7. المسافة الخارجية</a></li>
+    </ul>
+    <h3>درس javascript</h3>
+    <!-- دروس JavaScript الجديده -->
+    <h3>دروس JavaScript</h3>
+    <ul>
+        <li><a href="#js-lesson-1">1. (Alert)</a></li>
+        <li><a href="#js-lesson-2">2.  (Variables)</a></li>
+        <li><a href="#js-lesson-3">3.   (Data Types)</a></li>
+        <li><a href="#js-lesson-4">4. العمليات الحسابية</a></li>
+        <li><a href="#js-lesson-5">5. تغيير محتوى الصفحة</a></li>
+    </ul>
+</aside>
+</aside>
+
+
+
+
+
+
+
+
+        <section id="home" class="hero">
+            <p class="hero-small"> منصة تعليم تصميم المواقع</p>
+            <h1>codeStep</h1>
+            <p class="hero-text">
+                تعلم Front-End من الصفر إلى الاحتراف
+خطوة بخطوة وبطريقة بسيطة وعملية.
+
+            </p>
+          <div class="hero-btn">
+            <a href="#html-lesson-1" class="btn-first">ابدأ التعلم</a>
+            <a href="#courses" class="btn-second">استكشف الدورات</a>
+          </div>
+
+</section>
+<section id="about"class="about">
+    <div class="about-content">
+        <h2>codeStep</h2>
+        <p>
+              هي منصة تعليمية تهدف إلى تعليم
+            تصميم وتطوير المواقع للمبتدئين بطريقة
+            بسيطة وعملية، من خلال دروس مرتبة
+            وتمارين ومشاريع تطبيقية.
+        </p>
+    </div>
+</section>
+   <section id="courses" class="courses">
+    <p class="courses-small">تعلم خطوة بخطوة</p>
+    <h2>دوراتcodestep</h2>
+    <p class="courses-text">
+        اختر الدورة التي تريد البدء بها وتعلم بطريقة بسيطة وعملية
+    </p>
+
+    <div class="course-cards">
+        <div class="course-card">
+            <div class="course-icon">html</div>
+        
+        <h3>html</h3>
+        <P>تعلم اساسيات بناء صفحات الويب من الصفر</P>
+        <a href="#html-lesson-1">ابدأ الدورة</a>
+        </div>
+        <div class="course-card">
+            <div class="course-icon">css</div>
+            <h3>css</h3>
+            <p>تعلم تنسيق وتصميم صفحات الويب بطريقة احترافية</p>
+            <a href="#css-lesson-1">ابدأ الدورة</a>
+         </div>
+             <div class="course-card">
+                <div class="course-icon">js</div>
+                <h3>javascript</h3>
+                <P>تعلم اضافة التفاعل والحركة الى صفحات الويب</P>
+                <a href="#js-course">ابدأ الدورة</a>
+             </div>
+    
+        </div>
+
+   </section>
+   <section id="html-lesson-1" class="html-course">
+    <!--عنوان الدوره-->
+    <div class="course-header">
+        <h1>html</h1>
+        <p>تعلم HTML  من الصفر</p>
+    </div>
+    <!--الحطوة الاولى-->
+    <div class="lesson-card">
+        <div class="lesson-number">1</div>
+        <div class="lesson-content">
+            <h2>مقدمه عن HTML</h2>
+            <p>هي لغة ترميز تستخدم لبناء صفحات ويب HTML  وهي أساس اي موقع إلكتروني</p>
+
+        </div>
+    </div>
+    <!--الحطوة الثانية-->
+    <div class="lesson-card">
+        <div class="lesson-number">2</div>
+        <div class="lesson-content">
+            <h2>درس:نصوص وعناوين</h2>
+            <p>تستخدم الوسوم التالية لكتابة النصوص والعناوين  </p>
+            <div class="code-example">
+            &lt;h1&gt; عنوان رئيسي&lt;/h1&gt;
+            <br>
+            &lt;h2&gt; عنوان فرعي&lt;/h2&gt;
+            <br>
+            &lt;p&gt;  فقرة نصية&lt;/p&gt;
+            </div>
+        </div>
+        </div>
+            <!--الخطوه الثالثه-->
+            <div class="lesson-card">
+                <div class="lesson-number">3</div>
+                <div class="lesson-content">
+               <h2>تمرين :اختر من متعدد</h2>
+                <p class="code-example">
+                    ما هوه الوسم الصحيح لكتابة عنوان رئيسي
+                </p>
+
+           <button class="option" data-answer="wrong">h3</button>
+            <button class="option" data-answer="correct">h1</button>
+            <button class="option" data-answer="wrong">title</button>
+        
+
+            </div>
+            </div>
+
+
+                <!--حطوة4-->
+            <div class="lesson-card">
+                <div class="lesson-number">4</div>
+                <div class="lesson-content">
+                    <h2>مثال</h2>
+                    <p>مثال على استخدام العناوين والفقرات</p>
+                    <div class="code-example">
+                        &lt;h1&gt; مرحباً بك في كورس codestep&lt;/h1&gt;
+                        &lt;p&gt;هذة اول فقره نصية خاصة بك &lt;p&gt;
+                    </div>
+                </div>
+            </div>
+            <!--الخطوه5-->
+            <div class="lesson-card">
+                <div class="lesson-number">5</div>
+                <div class="lesson-content">
+                 <h2>سؤال</h2>
+                 <p>قم بكتابة <strong>Hellow World</strong>يواسطة  الوسم<strong>h1</strong></p>
+                 <textarea class="code-input" placeholder="enter the your code">
+                 </textarea>
+                </div>
+            </div>
+          <!--الخطوه6-->
+          <div class="lesson-card">
+            <div class="lesson-number">6</div>
+            <div class="lesson-content">
+                <h2>شرح بالفيديو</h2>
+                <p>
+                    <a href="https://youtu.be/0VPKCVcZgFU?si=X8lexL2O_b4NwN99"
+                    target="_blank"
+                    rel="noopener noreferrer">شاهد شرح الفيديو اضغط هنا</a>
+                </p>
+            </div>
+          </div>
+           <!--الخطوه7-->
+           <div class="lesson-card">
+            <div class="lesson-number">7</div>
+            <div class="lesson-content">
+                <h2>احسنت</h2>
+                <p>لقد اكملت خطوات هذه الدرس بنجاح</p>
+            </div>
+           </div>
+           <!--انحاز المهمه-->
+           <div class="complete-task">
+            <button id="complete-task">انجزت المهمه</button>
+           </div>
+   </section>
+   <!--المقدمه والصور-->
+
+  <section id="html-lesson-3" class="html-course">
+
+    <!-- عنوان الدرس -->
+    <div class="course-header">
+        <h1>HTML</h1>
+        <p>الدرس الثاني: الروابط والصور</p>
+    </div>
+
+
+    <!-- الخطوة الأولى -->
+    <div class="lesson-card">
+
+        <div class="lesson-number">1</div>
+
+        <div class="lesson-content">
+
+            <h2>مقدمة عن الروابط والصور</h2>
+
+            <p>
+                  نستخدم الروابط للانتقال إلى صفحات ومواقع مختلفة،
+                ونستخدم الصور لإضافة الصور إلى صفحات الويب.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- الخطوة الثانية -->
+    <div class="lesson-card">
+
+        <div class="lesson-number">2</div>
+
+        <div class="lesson-content">
+
+            <h2>درس: الروابط والصور</h2>
+
+            <p>
+                لإنشاء رابط نستخدم الوسم
+                <strong>&lt;a&gt;</strong>
+                مع الخاصية
+                <strong>href</strong>.
+            </p>
+
+            <div class="code-example">
+
+                &lt;a href="https://www.google.com"&gt;
+                Google
+                &lt;/a&gt;
+
+                <br><br>
+
+                لإضافة صورة نستخدم الوسم
+                <strong>&lt;img&gt;</strong>
+                مع الخاصية
+                <strong>src</strong>.
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- الخطوة الثالثة -->
+      <div class="lesson-card">
+    <!--<div class="quiz-card">-->
+
+        <div class="lesson-number">3</div>
+
+        <div class="lesson-content">
+
+            <h2>تمرين: اختيار من متعدد</h2>
+
+            <p>
+                ما هو الوسم المستخدم لإنشاء رابط  
+            </p>
+
+            
+              <button class="option" data-answer="wrong">p</button>
+            <button class="option" data-answer="correct">a href</button>
+            <button class="option" data-answer="wrong">img</button>
+        
+
+        </div>
+    </div>
+    
+
+
+    <!-- الخطوة الرابعة -->
+    <div class="lesson-card">
+
+        <div class="lesson-number">4</div>
+
+        <div class="lesson-content">
+
+            <h2>مثال</h2>
+
+            <p>
+                مثال على إنشاء رابط وإضافة صورة:
+            </p>
+
+            <div class="code-example">
+
+                &lt;a href="https://www.google.com"&gt;
+                Google
+                &lt;/a&gt;
+
+                <br><br>
+
+                &lt;img src="image.jpg" alt="صورة"&gt;
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- الخطوة الخامسة -->
+    <div class="lesson-card">
+
+        <div class="lesson-number">5</div>
+
+        <div class="lesson-content">
+
+            <h2>سؤال</h2>
+
+            <p>
+                قم بإنشاء رابط يحتوي على النص
+                <strong>Hello World</strong>
+                ويؤدي إلى موقع Google.
+            </p>
+
+            <textarea
+                class="code-input"
+                placeholder="enter your code">
+            </textarea>
+
+        </div>
+
+    </div>
+
+
+    <!-- الخطوة السادسة -->
+    <div class="lesson-card">
+
+        <div class="lesson-number">6</div>
+
+        <div class="lesson-content">
+
+            <h2>شرح بالفيديو</h2>
+
+            <p>
+                شاهد الفيديو التالي لشرح الروابط والصور بالتفصيل.
+            </p>
+
+            <a href="https://youtu.be/q2JqKoz82lU?si=QxbB5tku1fmhjw7q" 
+            target="_blank"
+            rel="noopener noreferrer"  >اضغط هنا</a>
+            
+
+        
+                 
+                            
+
+        </div>
+
+    </div>
+
+
+    <!-- الخطوة السابعة -->
+    <div class="lesson-card">
+
+        <div class="lesson-number">7</div>
+
+        <div class="lesson-content">
+
+            <h2>أحسنت! 🎉</h2>
+
+            <p>
+                لقد أكملت درس الروابط والصور بنجاح.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- إنجاز المهمة -->
+    <div class="complete-task">
+
+        <button>
+            أنجزت المهمة
+        </button>
+
+    </div>
+
+</section>
+<section id="html-lesson-4" class="html-course">
+
+    <!-- عنوان الدرس -->
+    <div class="course-header">
+
+        <h1>القوائم في HTML</h1>
+
+        <p>
+            تعلم كيفية إنشاء القوائم وترتيب المعلومات داخل صفحات الويب
+        </p>
+
+    </div>
+
+
+    <!-- الخطوة الأولى: المقدمة -->
+    <div class="lesson-card">
+
+        <div class="lesson-number">
+            1
+        </div>
+
+        <div class="lesson-content">
+
+            <h2>مقدمة عن القوائم</h2>
+
+            <p>
+                القوائم من العناصر المهمة   لأنها تساعدنا على
+                تنظيم المعلومات وعرضها بطريقة واضحة ومرتبة للمستخدم.
+            </p>
+
+            <p>
+                نستخدم القوائم في الكثير من صفحات الويب، مثل عرض أسماء
+                الدورات، والمهارات، والخطوات التي يجب تنفيذها، وعناصر
+                قائمة الطعام وغيرها من المعلومات.
+            </p>
+
+            <p>
+                  يوجد نوعان أساسيان من القوائم:
+                القائمة غير المرتبة، والقائمة المرتبة.
+            </p>
+
+            <p>
+                القائمة غير المرتبة تستخدم عادةً عندما لا يكون ترتيب
+                العناصر مهمًا، بينما نستخدم القائمة المرتبة عندما يكون
+                ترتيب العناصر مهمًا.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- الخطوة الثانية: شرح القوائم -->
+    <div class="lesson-card">
+
+        <div class="lesson-number">
+            2
+        </div>
+
+        <div class="lesson-content">
+
+            <h2>القائمة غير المرتبة والقائمة المرتبة</h2>
+
+            <p>
+                لإنشاء قائمة غير مرتبة نستخدم الوسم
+                <strong>&lt;ul&gt;</strong>.
+                أما كل عنصر داخل القائمة فنكتبه باستخدام الوسم
+                <strong>&lt;li&gt;</strong>.
+            </p>
+
+            <div class="code-example">
+
+                <pre><code>&lt;ul&gt;
+    &lt;li&gt;HTML&lt;/li&gt;
+    &lt;li&gt;CSS&lt;/li&gt;
+    &lt;li&gt;JavaScript&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+
+            </div>
+
+            <p>
+                سيظهر كل عنصر في هذه القائمة أمامه رمز نقطي،
+                لأننا استخدمنا القائمة غير المرتبة
+                <strong>&lt;ul&gt;</strong>.
+            </p>
+
+            <p>
+                أما إذا أردنا إنشاء قائمة مرتبة بالأرقام،
+                فنستخدم الوسم <strong>&lt;ol&gt;</strong>.
+            </p>
+
+            <div class="code-example">
+
+                <pre><code>&lt;ol&gt;
+    &lt;li&gt;تعلم HTML&lt;/li&gt;
+    &lt;li&gt;تعلم CSS&lt;/li&gt;
+    &lt;li&gt;تعلم JavaScript&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+
+            </div>
+
+            <p>
+                في هذه الحالة سيعرض المتصفح العناصر بالأرقام:
+                1 ثم 2 ثم 3، لأننا استخدمنا القائمة المرتبة
+                <strong>&lt;ol&gt;</strong>.
+            </p>
+
+            <p>
+                تذكر أن <strong>&lt;ul&gt;</strong> و
+                <strong>&lt;ol&gt;</strong> هما الحاوية الخاصة بالقائمة،
+                بينما <strong>&lt;li&gt;</strong> يمثل عنصرًا واحدًا
+                داخل القائمة.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- الخطوة الثالثة: تمرين -->
+    <div class="lesson-card">
+
+        <div class="lesson-number">
+            3
+        </div>
+
+        <div class="lesson-content">
+
+            <h2>تمرين: اختيار من متعدد</h2>
+
+            <p>
+                أي وسم نستخدمه لإنشاء عنصر مرتب داخل قائمة 
+            </p>
+
+            
+<button class="option" data-answer="wrong">ul</button>
+            <button class="option" data-answer="correct">ol</button>
+            <button class="option" data-answer="wrong">li</button>
+        
+
+    
+
+        </div>
+
+    </div>
+
+
+    <!-- الخطوة الرابعة: مثال -->
+     <div class="lesson-card">
+
+        <div class="lesson-number">
+            4
+        </div>
+
+        <div class="lesson-content">
+
+            <h2>مثال عملي</h2>
+
+            <p>
+                لنفترض أننا نريد إنشاء قائمة باللغات والتقنيات
+                التي يتعلمها طالب Front-End.
+            </p>
+
+            <div class="code-example">
+
+                <pre><code>&lt;h2&gt;مهارات Front-End&lt;/h2&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;HTML&lt;/li&gt;
+    &lt;li&gt;CSS&lt;/li&gt;
+    &lt;li&gt;JavaScript&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+
+            </div>
+
+            <p>
+                استخدمنا هنا <strong>&lt;ul&gt;</strong> لأن ترتيب
+                المهارات ليس شرطًا أن يكون متسلسلًا.
+            </p>
+
+            <p>
+                أما إذا أردنا كتابة خطوات تعلم Front-End بالترتيب،
+                فمن الأفضل استخدام <strong>&lt;ol&gt;</strong>.
+            </p>
+
+            <div class="code-example">
+
+                <pre><code>&lt;h2&gt;خطوات تعلم Front-End&lt;/h2&gt;
+
+&lt;ol&gt;
+    &lt;li&gt;تعلم HTML&lt;/li&gt;
+    &lt;li&gt;تعلم CSS&lt;/li&gt;
+    &lt;li&gt;تعلم JavaScript&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- الخطوة الخامسة: سؤال تطبيقي -->
+    <div class="lesson-card">
+
+        <div class="lesson-number">
+            5
+        </div>
+
+        <div class="lesson-content">
+
+            <h2>سؤال تطبيقي</h2>
+
+            <p>
+                قم بإنشاء قائمة مرتبة باستخدام
+                <strong>&lt;ol&gt;</strong>
+                تحتوي على ثلاث خطوات لتعلم تصميم المواقع:
+            </p>
+
+            <p>
+                1. تعلم HTML
+                <br>
+                2. تعلم CSS
+                <br>
+                3. تعلم JavaScript
+            </p>
+
+            <p>
+                اكتب الكود بنفسك داخل المربع التالي.
+            </p>
+
+            <textarea
+                class="code-input"
+                placeholder="اكتب كود HTML هنا...">
+            </textarea>
+
+        </div>
+
+    </div>
+
+
+    <!-- الخطوة السادسة: الفيديو -->
+    <div class="lesson-card">
+
+        <div class="lesson-number">
+            6
+        </div>
+
+        <div class="lesson-content">
+
+            <h2>شرح بالفيديو</h2>
+
+            <p>
+                بعد قراءة الدرس وتجربة الأمثلة بنفسك، شاهد شرح
+                الفيديو حتى تثبت لديك فكرة القوائم والفرق بين
+                القائمة المرتبة وغير المرتبة.
+            </p>
+               
+            <a href="https://youtu.be/q2JqKoz82lU?si=QxbB5tku1fmhjw7q" 
+            target="_blank"
+            rel="noopener noreferrer"  >اضغط هنا</a>
+            
+        </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- إنجاز المهمة -->
+    <div class="complete-task">
+
+        <button>
+            أنجزت المهمة
+        </button>
+
+    </div>
+
+</section>
+<section id="html-lesson-5" class="html-course">
+
+    <!-- عنوان الدرس -->
+    <div class="course-header">
+
+        <h1>النماذج في HTML - Forms</h1>
+
+        <p>
+            تعلم كيفية إنشاء نماذج تفاعلية لجمع المعلومات من المستخدم
+        </p>
+
+    </div>
+
+
+    
+    <!-- 1 - المقدمة -->
+    
+
+    <div class="lesson-card">
+
+        <div class="lesson-number">
+            1
+        </div>
+
+        <div class="lesson-content">
+
+            <h2>مقدمة عن النماذج (Forms)</h2>
+
+            <p>
+                النماذج   هي من أهم العناصر في صفحات الويب،
+                لأنها تسمح للمستخدم بإدخال المعلومات وإرسالها إلى الموقع.
+            </p>
+
+            <p>
+                عندما تدخل إلى موقع وتجد نموذج تسجيل يحتوي على الاسم
+                والبريد الإلكتروني وكلمة المرور، أو نموذج بحث، أو نموذج
+                 (form) للتواصل مع صاحب الموقع، فأنت تتعامل مع .
+            </p>
+
+            <p>
+                النموذج بحد ذاته لا يقوم بمعالجة المعلومات أو تخزينها،
+                وإنما وظيفته الأساسية هي جمع البيانات من المستخدم
+                وتجهيزها للإرسال.
+            </p>
+
+            <p>
+                في هذا الدرس سنتعلم أهم العناصر المستخدمة في إنشاء
+                النماذج، وسنطبقها معًا خطوة بخطوة.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    
+    <!-- 2 - form -->
+    
+
+    <div class="lesson-card">
+
+        <div class="lesson-number">
+            2
+        </div>
+
+        <div class="lesson-content">
+
+            <h2>الوسم &lt;form&gt;</h2>
+
+            <p>
+                الوسم
+                <strong>&lt;form&gt;</strong>
+                هو الحاوية الأساسية التي نضع بداخلها عناصر النموذج.
+            </p>
+
+            <p>
+                نستطيع وضع حقول الإدخال والأزرار وغيرها من عناصر
+                النموذج داخل وسم  واحد.
+            </p>
+
+            <div class="code-example">
+
+<pre><code>&lt;form&gt;
+
+    &lt;!-- عناصر النموذج هنا --&gt;
+
+&lt;/form&gt;</code></pre>
+
+            </div>
+
+            <p>
+                لاحظ أن معظم عناصر النموذج تكون بين وسم الفتح
+                <strong>&lt;form&gt;</strong>
+                ووسم الإغلاق
+                <strong>&lt;/form&gt;</strong>.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- سؤال form -->
+
+    <div class="lesson-card">
+
+        <div class="lesson-number">
+            3
+        </div>
+
+        <div class="lesson-content">
+
+            <h2>اختبار: &lt;form&gt;</h2>
+
+            <p>
+                ما الوظيفة الأساسية للوسم
+                &lt;form&gt;؟
+            </p>
+
+            <button class="option" data-answer="wrong">اضافة رابط</button>
+            <button class="option" data-answer="correct">انشاء حاوية عناصر النموذج</button>
+            <button class="option" data-answer="wrong">انشاء عنوان رئيسي</button>
+        
+
+        </div>
+
+    </div>
+
+
+
+    <!-- 4 - label -->
+    
+
+    <div class="lesson-card">
+
+        <div class="lesson-number">
+            4
+        </div>
+
+        <div class="lesson-content">
+
+            <h2>الوسم &lt;label&gt;</h2>
+
+            <p>
+                نستخدم الوسم
+                <strong>&lt;label&gt;</strong>
+                لكتابة اسم أو وصف لحقل الإدخال.
+            </p>
+
+            <p>
+                أذا كان لديك حقل ادخال اسم مستخدم او اي حقل ادخال اخر عليك ان تعطيه اسم للحقل بواسطة(label)
+               
+</p>
+
+            <div class="code-example">
+
+<pre><code>&lt;label&gt;
+    الاسم
+&lt;/label&gt;</code></pre>
+
+            </div>
+
+            <p>
+                 Label يجعل النموذج أوضح للمستخدم، كما أنه
+                يساعد على بناء نماذج منظمة وسهلة الاستخدام.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- سؤال label -->
+
+    <div class="lesson-card">
+
+        <div class="lesson-number">
+            5
+        </div>
+
+        <div class="lesson-content">
+
+            <h2>اختبار: &lt;label&gt;</h2>
+
+            <p>
+                لماذا نستخدم الوسم
+                &lt;label&gt;
+                في النموذج؟
+            </p>
+
+            <button class="option" data-answer="wrong">انشاء جدول</button>
+            <button class="option" data-answer="correct">كتابة اسم او وصف لحقل الادخال</button>
+            <button class="option" data-answer="wrong">انشاء حاوية نموذج</button>
+        
+        </div>
+
+    </div>
+
+
+    
+    <!-- 6 - input -->
+    
+
+    <div class="lesson-card">
+
+        <div class="lesson-number">
+            6
+        </div>
+
+        <div class="lesson-content">
+
+            <h2>الوسم &lt;input&gt;</h2>
+
+            <p>
+                الوسم
+                <strong>&lt;input&gt;</strong>
+                هو أحد أهم عناصر النماذج، ونستخدمه لإنشاء حقل يستطيع
+                المستخدم من خلاله إدخال البيانات.
+            </p>
+
+            <p>
+                  يمكن أن يأخذ أشكالًا ووظائف مختلفة،
+                وذلك حسب القيمة التي نضعها في الخاصية
+                <strong>type</strong>.
+            </p>
+
+            <div class="code-example">
+
+<pre><code>&lt;input type="text"&gt;</code></pre>
+
+            </div>
+
+            <p>
+                في المثال السابق أنشأنا حقلًا يسمح للمستخدم بكتابة
+                نص لأننا استخدمنا
+                <strong>type="text"</strong>.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- سؤال input -->
+
+    <div class="lesson-card">
+
+        <div class="lesson-number">
+            7
+        </div>
+
+        <div class="lesson-content">
+
+            <h2>اختبار: &lt;input&gt;</h2>
+
+            <p>
+                ما الوظيفة الأساسية للوسم
+                &lt;input&gt;؟
+            </p>
+
+            <button class="option" data-answer="wrong">خزن معلومات واستخدامها عند الحاجه</button>
+            <button class="option" data-answer="correct">ادخال بيانات من المستخم</button>
+            <button class="option" data-answer="wrong">كتابة عنوان </button>
+        
+        </div>
+
+    </div>
+
+
+    
+    <!-- 8 - type text -->
+    
+
+    <div class="lesson-card">
+
+        <div class="lesson-number">
+            8
+        </div>
+
+        <div class="lesson-content">
+
+            <h2>type="text"</h2>
+
+            <p>
+                نستخدم
+                <strong>type="text"</strong>
+                عندما نريد من المستخدم إدخال نص قصير مثل الاسم
+                أو اسم المستخدم أو المدينة.
+            </p>
+
+            <div class="code-example">
+                  <pre><code>&lt;label&gt;الاسم&lt;/label&gt;
+
+&lt;input type="text"&gt;</code></pre>
+
+            </div>
+
+            <p>
+                عند عرض هذا الكود في المتصفح سيظهر حقل يمكن للمستخدم
+                الكتابة بداخله.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- سؤال text -->
+
+    <div class="lesson-card">
+
+        <div class="lesson-number">
+            9
+        </div>
+
+        <div class="lesson-content">
+
+            <h2>اختبار: type="text"</h2>
+
+            <p>
+                متى نستخدم
+                type="text"؟
+            </p>
+
+            <button class="option" data-answer="wrong">ادخال رقم فقط</button>
+            <button class="option" data-answer="correct">ادخال نص مثل اسم</button>
+            <button class="option" data-answer="wrong">اخفاء كلمة المرور</button>
+        
+        </div>
+
+    </div>
+
+
+    
+    <!-- 10 - email -->
+    
+
+    <div class="lesson-card">
+
+        <div class="lesson-number">
+            10
+        </div>
+
+        <div class="lesson-content">
+
+            <h2>type="email"</h2>
+
+            <p>
+                نستخدم
+                <strong>type="email"</strong>
+                عندما نريد من المستخدم إدخال عنوان بريد إلكتروني.
+            </p>
+
+            <div class="code-example">
+
+<pre><code>&lt;label&gt;البريد الإلكتروني&lt;/label&gt;
+
+&lt;input type="email"&gt;</code></pre>
+
+            </div>
+
+            <p>
+                   يساعد المتصفح على معرفة أن هذا
+                الحقل مخصص للبريد الإلكتروني، ويمكن للمتصفح التحقق
+                من صيغة البريد عند إرسال النموذج.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- سؤال email -->
+
+    <div class="lesson-card">
+
+        <div class="lesson-number">
+            11
+        </div>
+
+        <div class="lesson-content">
+
+            <h2>اختبار: type="email"</h2>
+
+            <p>
+                أي نوع من Input مناسب لإدخال البريد الإلكتروني؟
+            </p>
+                <button class="option" data-answer="wrong">type="text"</button>
+            <button class="option" data-answer="correct">type="email"</button>
+            <button class="option" data-answer="wrong">type="password"</button>
+        
+            
+        </div>
+
+    </div>
+
+
+    
+    <!-- 12 - password -->
+    
+
+    <div class="lesson-card">
+
+        <div class="lesson-number">
+            12
+        </div>
+
+        <div class="lesson-content">
+
+            <h2>type="password"</h2>
+
+            <p>
+                نستخدم
+                <strong>type="password"</strong>
+                للحقول التي تحتوي على معلومات سرية مثل كلمات المرور.
+            </p>
+
+            <div class="code-example">
+
+<pre><code>&lt;label&gt;كلمة المرور&lt;/label&gt;
+
+&lt;input type="password"&gt;</code></pre>
+
+            </div>
+
+            <p>
+                عند الكتابة داخل هذا الحقل لا تظهر الأحرف بشكلها
+                الطبيعي، وإنما تظهر عادةً على شكل نقاط أو رموز،
+                حتى لا تظهر كلمة المرور بشكل مباشر على الشاشة.
+            </p>       
+
+       </div>
+
+    </div>
+
+
+    <!-- سؤال password -->
+
+    <div class="lesson-card">
+
+        <div class="lesson-number">
+            13
+        </div>
+
+        <div class="lesson-content">
+
+            <h2>اختبار: type="password"</h2>
+
+            <p>
+                أي نوع نستخدمه لإدخال كلمة مرور؟
+            </p>
+              <button class="option" data-answer="wrong">type="email"</button>
+            <button class="option" data-answer="correct">type="password"</button>
+            <button class="option" data-answer="wrong">type="number"</button>
+        
+            
+        </div>
+
+    </div>
+
+
+    <!-- 14 - number -->
+    
+
+    <div class="lesson-card">
+
+        <div class="lesson-number">
+            14
+        </div>
+
+        <div class="lesson-content">
+
+            <h2>type="number"</h2>
+
+            <p>
+                نستخدم
+                <strong>type="number"</strong>
+                عندما نريد من المستخدم إدخال قيمة رقمية، مثل العمر
+                أو عدد معين.
+            </p>
+
+            <div class="code-example">
+
+<pre><code>&lt;label&gt;العمر&lt;/label&gt;
+
+&lt;input type="number"&gt;</code></pre>
+
+            </div>
+
+            <p>
+                هذا النوع مخصص للأرقام، ويعطي المتصفح معلومات أوضح
+                عن نوع البيانات التي يتوقعها في هذا الحقل.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- سؤال number -->
+
+    <div class="lesson-card">
+
+        <div class="lesson-number">
+            15
+        </div>
+
+        <div class="lesson-content">
+
+            <h2>اختبار: type="number"</h2>
+
+            <p>
+                أي نوع مناسب لإدخال عمر المستخدم؟
+            </p>
+
+            <button class="option" data-answer="wrong">type="passowrd"</button>
+            <button class="option" data-answer="correct">type="number"</button>
+            <button class="option" data-answer="wrong">type="email"</button>
+        
+        </div>
+
+    </div>
+
+
+    
+    <!-- 16 - submit -->
+    
+
+    <div class="lesson-card">
+
+        <div class="lesson-number">
+            16
+        </div>
+
+        <div class="lesson-content">
+
+            <h2>type="submit"</h2>
+
+            <p>
+                بعد أن يدخل المستخدم بياناته، نحتاج إلى زر يسمح له
+                بإرسال النموذج.
+            </p>
+
+            <p>
+                لهذا الغرض يمكننا استخدام:
+                <strong>type="submit"</strong>.
+            </p>
+
+            <div class="code-example">
+
+<pre><code>&lt;input type="submit" value="إرسال"&gt;</code></pre>
+
+            </div>
+
+            <p>
+                عند الضغط على هذا الزر يحاول المتصفح إرسال بيانات
+                النموذج، لكن عملية معالجة البيانات وتخزينها تحتاج
+                إلى تقنيات أخرى في الواجهة الخلفية.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- سؤال submit -->
+
+    <div class="lesson-card">
+
+        <div class="lesson-number">
+            17
+        </div>
+
+        <div class="lesson-content">
+
+            <h2>اختبار: type="submit"</h2>
+        <p>
+                ما وظيفة
+                type="submit"؟
+            </p>
+
+                <button class="option" data-answer="wrong">تخزين معلومات وارسالها عند الحاجه</button>
+            <button class="option" data-answer="correct">ارسال نموذج</button>
+            <button class="option" data-answer="wrong">اظهار رساله داخل نافذه صغيره</button>
+        
+        </div>
+
+    </div>
+
+
+    <!-- 18 - المثال الكامل -->
+
+    <div class="lesson-card">
+
+        <div class="lesson-number">
+            18
+        </div>
+
+        <div class="lesson-content">
+
+            <h2>مثال عملي: نموذج تسجيل</h2>
+
+            <p>
+                الآن بعد أن تعرفنا على العناصر الأساسية، نستطيع
+                جمعها معًا لإنشاء نموذج تسجيل بسيط.
+            </p>
+
+            <div class="code-example">
+
+<pre><code>&lt;form&gt;
+
+    &lt;label&gt;الاسم&lt;/label&gt;
+    &lt;input type="text"&gt;
+
+    &lt;label&gt;البريد الإلكتروني&lt;/label&gt;
+    &lt;input type="email"&gt;
+
+    &lt;label&gt;كلمة المرور&lt;/label&gt;
+    &lt;input type="password"&gt;
+
+    &lt;label&gt;العمر&lt;/label&gt;
+    &lt;input type="number"&gt;
+
+    &lt;input type="submit" value="إرسال"&gt;
+
+&lt;/form&gt;</code></pre>
+
+            </div>
+
+            <p>
+               لاحظ كيف جمعنا نموذج ادخال في حقل واعطيناه وصف
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- 19 - السؤال التطبيقي -->
+
+    <div class="lesson-card">
+
+        <div class="lesson-number">
+            19
+        </div>
+
+        <div class="lesson-content">
+
+            <h2>سؤال تطبيقي</h2>
+
+            <p>
+                قم بإنشاء نموذج تسجيل بسيط يحتوي على:
+            </p>
+
+            <p>
+                • حقل لاسم المستخدم باستخدام
+                type="text"
+                <br>
+                • حقل للبريد الإلكتروني باستخدام
+                type="email"
+                <br>
+                • حقل لكلمة المرور باستخدام
+                type="password"
+                <br>
+                • حقل للعمر باستخدام
+                type="number"
+                <br>
+                • زر لإرسال النموذج
+            </p>
+
+            <p>
+                حاول كتابة الكود بنفسك أولًا قبل مشاهدة أي حل.
+            </p>
+
+            <textarea
+                class="code-input"
+                placeholder="اكتب كود HTML هنا...">
+            </textarea>
+
+        </div>
+
+    </div>
+
+
+    <!-- 20 - الفيديو -->
+
+    <div class="lesson-card">
+
+        <div class="lesson-number">
+            20
+        </div>
+
+        <div class="lesson-content">
+
+            <h2>شرح بالفيديو</h2>
+
+            <p>
+                بعد الانتهاء من قراءة الدرس وحل الأسئلة، شاهد
+                شرح الفيديو لتثبيت المعلومات ومشاهدة كيفية بناء
+                 عملي خطوة بخطوة.
+            </p>
+
+            <a href="https://youtu.be/inC9gWjNMJI?si=cFJm38f82eNAV5CR" target="_blank"
+            rel="noopener noreferrer">اضغط هنا</a>
+
+        </div>
+
+    </div>
+      <div class="complete-task">
+        <button>انجزت المهمة</button>
+      </div>
+<section id="html-lesson-6" class="html-course">
+
+    <!-- عنوان الدرس -->
+    <div class="course-header">
+
+        <h1>Class و ID في HTML</h1>
+
+        <p>
+            تعلم كيفية استخدام (class و id )لتحديد العناصر
+            وتنظيمها والتحكم بها داخل صفحات الويب.
+        </p>
+
+    </div>
+
+
+    <!-- 1 - المقدمة -->
+
+    <div class="lesson-card">
+
+        <div class="lesson-number">
+            1
+        </div>
+
+        <div class="lesson-content">
+
+            <h2>مقدمة عن Class و ID</h2>
+
+            <p>
+                أثناء بناء صفحات  سنجد أن الصفحة قد تحتوي على
+                عدد كبير من العناصر، مثل العناوين والفقرات والصور
+                والأزرار والأقسام وغيرها.
+            </p>
+
+            <p>
+                أحيانًا نحتاج إلى تحديد عنصر معين أو مجموعة من العناصر
+                حتى نستطيع التعامل معها لاحقًا، سواء عند تنسيق الصفحة
+                  أو إضافة التفاعل  
+            </p>
+
+            <p>
+                لهذا السبب توفر لنا  طريقتين مهمتين لتحديد العناصر،
+                وهما:
+                <strong>class</strong>
+                و
+                <strong>id</strong>.
+            </p>
+
+            <p>
+                فهم الفرق بينهما وطريقة استخدام كل واحد منهما يعتبر
+               (التفاعل والتنسيق) من الأساسيات المهمة جدًا قبل الانتقال إلى  .
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- 2 - شرح CLASS -->
+
+    <div class="lesson-card">
+
+        <div class="lesson-number">
+            2
+        </div>
+
+        <div class="lesson-content">
+
+            <h2>ما هو Class؟</h2>
+
+            <p>
+                كلمة
+                <strong>class</strong>
+                تعني فئة أو مجموعة،   نستخدمها لإعطاء عنصر
+                اسمًا يحدد المجموعة أو النوع الذي ينتمي إليه.
+            </p>
+
+            <p>
+                الفكرة المهمة هي أن أكثر من عنصر يستطيع أن يحمل
+               (class) نفس اسم الـ .
+            </p>
+
+            <p>
+                على سبيل المثال، إذا كان لدينا ثلاث فقرات ونريد
+               (class) اعتبارها من نفس المجموعة، نستطيع إعطاءها نفس الـ 
+            </p>
+
+            <div class="code-example">
+
+<pre><code>&lt;p class="info"&gt;
+    مرحبًا بك في المنصة
+&lt;/p&gt;
+
+&lt;p class="info"&gt;
+    تعلم HTML من الصفر
+&lt;/p&gt;
+
+&lt;p class="info"&gt;
+    ابدأ أول درس الآن
+&lt;/p&gt;</code></pre>
+
+            </div>
+
+            <p>
+               (class) هنا جميع الفقرات تحمل نفس الـ  
+                <strong>info</strong>.
+            </p>
+
+            <p>
+                وهذا يعني أننا نستطيع التعامل معها كمجموعة واحدة،
+                وهذا الأمر يصبح مهمًا جدًا عند استخدام  لتنسيق
+                مجموعة من العناصر بنفس الطريقة.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- 3 - سؤال CLASS -->
+
+    <div class="lesson-card">
+
+        <div class="lesson-number">
+            3
+        </div>
+
+        <div class="lesson-content">
+
+            <h2>اختبار: Class</h2>
+
+            <p>
+                هل يمكن إعطاء أكثر من عنصر نفس اسم الـ class؟
+            </p>
+
+
+            <button class="option" data-answer="wrong">لا يجب ان يكون مختلفا لكل عنصر</button>
+            <button class="option" data-answer="correct">نعم يمكن استخدام نفس الفئة لاكثر من عنصر </button>
+            <button class="option" data-answer="wrong">تستخدم الفئة للصور فقط  </button>
+        
+
+
+
+
+            
+        </div>
+
+    </div>
+
+
+    <!-- 4 - طريقة كتابة CLASS -->
+
+    <div class="lesson-card">
+
+        <div class="lesson-number">
+            4
+        </div>
+
+        <div class="lesson-content">
+
+            <h2>كيفية كتابة Class</h2>
+
+            <p>
+                    وسم (class) باستخدام الخاصية
+                <strong>class</strong>.
+            </p>
+
+            <p>
+                  (class )نضع علامة يساوي، ثم نكتب اسم
+                  داخل علامتي تنصيص.
+            </p>
+
+            <div class="code-example">
+
+<pre><code>&lt;p class="text"&gt;
+    هذا نص
+&lt;/p&gt;</code></pre>
+
+            </div>
+
+            <p>
+                في هذا المثال:
+            </p>
+
+            <p>
+                <strong>class</strong>
+                هي الخاصية التي نستخدمها لتحديد الفئة.
+            </p>
+
+            <p>
+                أما
+                <strong>text</strong>
+                فهو اسم الفئة التي اخترناها لهذا العنصر.
+            </p>
+
+            <p>
+                اسم الـ الفئة نختاره نحن حسب الغرض من العنصر،
+                ومن الأفضل أن يكون الاسم واضحًا ويعبّر عن وظيفته
+                أو المجموعة التي ينتمي إليها.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    
+
+            <div class="code-example">
+
+<pre><code>&lt;p class="text important"&gt;
+    هذه فقرة مهمة
+&lt;/p&gt;</code></pre>
+
+            </div>
+
+            <p>
+         في المثال السابق العنصر يمتلك  اسم
+                <strong>text</strong>
+                 آخر اسمه
+                <strong>important</strong>.
+            </p>
+
+            <p>
+                وهذا يسمح لنا بإعطاء العنصر أكثر من تصنيف،
+            (فئة) بحيث يمكن أن يستفيد من القواعد المرتبطة بكل 
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- 6 - سؤال -->
+
+    <div class="lesson-card">
+
+        <div class="lesson-number">
+            6
+        </div>
+
+        <div class="lesson-content">
+
+            <h2>اختبار: أكثر من Class</h2>
+
+            <p>
+                كيف نكتب أكثر من عنصر داخل  كلاس؟
+            </p>
+          <button class="option" data-answer="wrong">  استخدام فاصلة فقط  </button>
+            <button class="option" data-answer="correct">نفصل اسماء الفئة بمسافة</button>
+            <button class="option" data-answer="wrong">نكتب فئة مختلفه داخل كل وسم</button>
+        
+            
+        </div>
+
+    </div>
+
+
+    <!-- 7 - شرح ID -->
+
+    <div class="lesson-card">
+
+        <div class="lesson-number">
+            7
+        </div>
+
+        <div class="lesson-content">
+
+            <h2>ما هو ID؟</h2>
+
+            <p>
+                الخاصية
+                <strong>id</strong>
+
+تستخدم لإعطاء عنصر  معرفًا محددًا يمكن من خلاله
+                الوصول إلى هذا العنصر والتعرف عليه.
+            </p>
+
+            <p>
+                عندما نستخدم Id لعنصر، نختار له اسمًا يميزه عن
+                العناصر الأخرى الموجودة في الصفحة.
+            </p>
+
+            <div class="code-example">
+
+<pre><code>&lt;h1 id="main-title"&gt;
+    تعلم HTML
+&lt;/h1&gt;</code></pre>
+
+            </div>
+
+            <p>
+                في المثال السابق أعطينا العنوان  
+                <strong>main-title</strong>.
+            </p>
+
+            <p>
+                أصبح بإمكاننا استخدام هذا المعرف للوصول إلى هذا
+                العنصر وتحديده بشكل مباشر.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- 8 - قاعدة ID -->
+
+    <div class="lesson-card">
+
+        <div class="lesson-number">
+            8
+        </div>
+
+        <div class="lesson-content">
+
+            <h2>قاعدة مهمة عند استخدام ID</h2>
+
+            <p>
+                من أهم القواعد التي يجب أن تتذكرها عند استخدام
+                <strong>id</strong>
+                أن المعرف يجب أن يكون مميزًا داخل الصفحة.
+            </p>
+
+            <p>
+                            بمعنى اذا اعطينا معرف لاحد العناصر يجب ان لا يكرر لأكثر من واحد
+            </p>
+
+            <div class="code-example">
+
+<pre><code>&lt;h1 id="main-title"&gt;
+    عنوان الصفحة
+&lt;/h1&gt;
+
+&lt;p id="description"&gt;
+    وصف الصفحة
+&lt;/p&gt;</code></pre>
+
+            </div>
+
+            <p>
+                هنا لكل عنصر معرف خاص
+                <strong>main-title</strong>
+                للعنوان،
+                و
+                <strong>description</strong>
+                للفقرة.
+            </p>
+
+            <p>
+                لذلك عند اختيار  لعنصر احرص على أن يكون المعرف
+                واضحًا ومميزًا داخل الصفحة.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- 9 - سؤال ID -->
+
+    <div class="lesson-card">
+
+        <div class="lesson-number">
+            9
+        </div>
+
+        <div class="lesson-content">
+
+            <h2>اختبار: ID</h2>
+
+            <p>
+                ما القاعدة المهمة عند استخدام ID داخل الصفحة؟
+            </p>
+
+           <button class="option" data-answer="wrong">استخدام نفس المعرف لجميع العناصر</button>
+            <button class="option" data-answer="correct">يجب ان يكون المعرف مميز داخل الصفحه</button>
+            <button class="option" data-answer="wrong">لا يمكن كتابة داخل الصفحه</button>
+        
+           
+           
+           
+           
+           
+           
+        </div>
+
+    </div>
+
+
+    <!-- 10 - الفرق العملي في الاستخدام -->
+
+    <div class="lesson-card">
+
+        <div class="lesson-number">
+            10
+        </div>
+
+        <div class="lesson-content">
+
+            <h2>     متى نستخدم الفئة ومتى نستخدم المعرف</h2>
+
+            <p>
+                عندما يكون لدينا مجموعة من العناصر التي نريد أن
+                تنتمي إلى نفس الفئة، يمكننا استخدام
+                <strong>class</strong>.
+            </p>
+
+            <div class="code-example">
+
+<pre><code>&lt;p class="lesson-text"&gt;
+    النص الأول
+&lt;/p&gt;
+
+&lt;p class="lesson-text"&gt;
+    النص الثاني
+&lt;/p&gt;</code></pre>
+
+            </div>
+
+            <p>
+                أما عندما نريد إعطاء عنصر معرفًا محددًا ومميزًا،
+                فنستخدم
+                <strong>id</strong>.
+            </p>
+
+<div class="code-example">
+
+<pre><code>&lt;h1 id="page-title"&gt;
+    دورة HTML
+&lt;/h1&gt;</code></pre>
+
+            </div>
+
+            <p>
+                لذلك يمكن أن تتذكر الفكرة بهذه الصورة:
+            </p>
+
+            <p>
+                <strong>Class:</strong>
+                يمكن استخدامه مع مجموعة من العناصر.
+            </p>
+
+            <p>
+                <strong>ID:</strong>
+                يستخدم لتحديد عنصر بمعرف مميز داخل الصفحة.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================================= -->
+    <!-- 11 - مثال عملي -->
+    <!-- ================================= -->
+
+    <div class="lesson-card">
+
+        <div class="lesson-number">
+            11
+        </div>
+
+        <div class="lesson-content">
+
+            <h2>مثال عملي يجمع Class و ID</h2>
+
+            <p>
+                الآن سنستخدم الاثنين في مثال واحد حتى نرى كيف يمكن
+                استخدامهما داخل صفحة حقيقية.
+            </p>
+
+            <div class="code-example">
+
+<pre><code>&lt;h1 id="course-title"&gt;
+    دورة تصميم المواقع
+&lt;/h1&gt;
+
+&lt;p class="course-text"&gt;
+    تعلم HTML من الصفر.
+&lt;/p&gt;
+
+&lt;p class="course-text"&gt;
+    ثم انتقل إلى CSS.
+&lt;/p&gt;
+
+&lt;p class="course-text"&gt;
+    وبعدها تعلم JavaScript.
+&lt;/p&gt;</code></pre>
+
+            </div>
+
+            <p>
+                في المثال السابق استخدمنا المعرف للعنوان لأنه يمثل
+                عنوان الدورة المحدد.
+            </p>
+
+            <p>
+                بينما استخدمنا نفس الفئة مع الفقرات الثلاث لأنها
+                تنتمي إلى نفس المجموعة.
+            </p>
+
+            <p>
+                بهذه الطريقة نستطيع تنظيم العناصر وتحديدها بشكل
+                واضح، ويصبح من السهل التعامل معها لاحقًا عند كتابة
+                 التفاعل او التنسيق .
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- 12 - اختيار من متعدد -->
+
+    <div class="lesson-card">
+
+        <div class="lesson-number">
+            12
+        </div>
+
+        <div class="lesson-content">
+
+            <h2>اختبار شامل</h2>
+
+            <p>
+                لديك ثلاثة عناصر تريد إعطاءها نفس التنسيق في CSS،
+                أيهما أنسب لاستخدامه؟
+            </p>
+                <button class="option" data-answer="wrong">معرف مختلف لكل عنصر</button>
+            <button class="option" data-answer="correct"> استخدام نفس الفئة، لجميع العناصر</button>
+            <button class="option" data-answer="wrong">لا نحتاج شيء</button>
+         
+          
+          
+        </div>
+
+    </div>
+
+
+    <!-- 13 - السؤال التطبيقي -->
+
+    <div class="lesson-card">
+
+        <div class="lesson-number">
+            13
+        </div>
+
+        <div class="lesson-content">
+
+            <h2>سؤال تطبيقي</h2>
+
+            <p>
+                قم بإنشاء صفحة بسيطة تحتوي على:
+            </p>
+
+            <p>
+                • عنوان رئيسي واستخدم له ID باسم
+                <strong>main-title</strong>.
+            </p>
+
+            <p>
+                • ثلاث فقرات، واجعل الفقرات الثلاث تشترك في
+                class واحد اسمه
+                <strong>description</strong>.
+            </p>
+
+            <p>
+                • اكتب داخل الفقرات معلومات قصيرة عن تعلم HTML.
+            </p>
+
+            <p>
+                حاول كتابة الكود بنفسك، وتذكر أن الـ ID يستخدم
+                للعنصر المحدد، بينما يمكن مشاركة الـ class بين
+                عدة عناصر.
+            </p>
+
+            <textarea
+                class="code-input"
+
+placeholder="اكتب كود HTML هنا...">
+            </textarea>
+
+        </div>
+
+    </div>
+
+
+    <!-- 14 - فيديو -->
+
+    <div class="lesson-card">
+
+        <div class="lesson-number">
+            14
+        </div>
+
+        <div class="lesson-content">
+
+            <h2>شرح بالفيديو</h2>
+
+            <p>
+                بعد الانتهاء من قراءة الدرس وحل الأسئلة والتطبيق،
+                شاهد الفيديو لتثبيت مفهوم class و id ومشاهدة
+                استخدامهما عمليًا داخل صفحات .
+            </p>
+
+            <a href="https://youtu.be/BS8NMpkuSH4?si=kCrYeHpWCBRu2pgV" target="_blank"
+            rel="noopener noreferrer">اضغط هنا</a>
+
+        </div>
+
+    </div>
+
+
+    
+
+
+
+    <!-- إنجاز المهمة -->
+
+    <div class="complete-task">
+
+        <button>
+            أنجزت المهمة
+        </button>
+
+    </div>
+
+
+</section>
+
+<!-- كارد إكمال كورس HTML -->
+
+<div class="welcome-card">
+
+    <div class="icon">
+        ✔️
+    </div>
+
+    <h1>🎉 مبروك! أكملت HTML</h1>
+
+    <p>
+        لقد أنهيت ألاساسيات  
+        وأصبحت جاهزًا للانتقال إلى المرحلة التالية.
+    </p>
+
+    <div class="course-transition">
+
+        <div class="course-html">
+            <p>&lt;/&gt;</p>
+            <strong>HTML</strong>
+            <p>هيكل الصفحة</p>
+            <button onclick="document.getElementById('html-lesson-1').scrollIntoView({ behavior: 'smooth' });">العودة الى html</button>
+
+        </div>
+
+        <div class="course-css">
+            <p>{ }</p>
+            <strong>CSS</strong>
+            <p>تصميم وتنسيق</p>
+            <button onclick="document.getElementById('css-lesson-1').scrollIntoView({ behavior: 'smooth' });">ابدأ رحلتي مع css</button>
+
+        </div>
+
+    </div>
+
+
+</div>
+
+<!-- الدرس الأول: إضافة الخلفية -->
+
+<div class="lesson">
+           <div id="css-lesson-1"></div>
+
+    <div class="lesson-number">
+        1
+    </div>
+
+    <div class="lesson-content">
+
+        <!-- مقدمة الدرس -->
+        <h2>الدرس الأول: إضافة الخلفية</h2>
+
+        <p>
+            في هذا الدرس سنتعلم كيفية إضافة خلفية للصفحة  
+            سواء كانت الخلفية لونًا أو صورة، حتى نجعل الصفحة أجمل وأكثر تميزًا.
+        </p>
+
+
+        <!-- المثال -->
+        <div class="code-example">
+
+            <h3>مثال 💻</h3>
+
+            <p>
+                لتغيير لون خلفية الصفحة نستخدم الخاصية:
+            </p>
+
+            <pre><code>
+body {
+    background-color: blue;
+}
+            </code></pre>
+
+            <p>
+                استخدمنا الخاصية
+                <strong>background-color</strong>
+                لتغيير لون خلفية الصفحة إلى اللون الأزرق.
+            </p>
+
+        </div>
+
+
+        <!-- اختيار من متعدد -->
+        <div class="quiz-card">
+
+            <h3>اختيار من متعدد ❓</h3>
+
+            <p>
+                أي خاصية نستخدمها لتغيير لون خلفية الصفحة؟
+            </p>
+ 
+<div class="options">
+
+    <button class="option" data-answer="wrong">
+        color
+    </button>
+
+    <button class="option" data-answer="correct">
+        background-color
+    </button>
+
+    <button class="option" data-answer="wrong">
+        font-size
+    </button>
+
+</div>
+
+
+            
+
+        </div>
+
+
+        <!-- سؤال -->
+        <div class="question-card">
+
+            <h3>سؤال ✏️</h3>
+
+            <p>
+                اكتب اسم الخاصية التي نستخدمها لإضافة صورة كخلفية للصفحة.
+            </p>
+
+            <input
+                type="text"
+                class="answer-input"
+                placeholder="اكتب إجابتك هنا"
+            >
+
+        </div>
+
+
+        <!-- الفيديو -->
+        <div class="video-card">
+
+            <h3>شرح بالفيديو 🎥</h3>
+
+            <p>
+                شاهد الفيديو التالي لتتعلم كيفية إضافة الخلفيات  .
+            </p>
+             <a href="https://youtu.be/RGCitnwhD50?si=S2nOA5Oje1-_x6Bc" target="_blank"
+            rel="noopener noreferrer">اضغط هنا</a>
+
+
+        </div>
+
+
+        <!-- إنجاز المهمة -->
+        <div class="complete-task">
+
+            <button>
+                أنجزت المهمة
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- الدرس الثاني: تغيير لون النص -->
+<div class="lesson">
+    <!-- رقم الدرس -->
+         <div id="css-lesson-2"></div>
+
+    <div class="lesson-number">2</div>
+    <!-- محتوى الدرس -->
+    <div class="lesson-content">
+        <h2>🎨 الدرس الثاني: تغيير لون النص</h2>
+        <p>
+في هذا الدرس نتعلم كيفية تفيير اللون النصوص        </p>
+        <!-- المثال -->
+        <div class="code-example">
+            <h3>💡 مثال</h3>
+            <p>
+                إذا اردنا جعل اللون العنوان أزرق، نكتب الكود التالي:
+            </p>
+            <pre><code>h1 {
+    color: blue;
+}</code></pre>
+            <p>
+                في هذا المثال، سوف يتغير لون النص داخل العنوان
+                إلى اللون الأزرق.
+            </p>
+        </div>
+        <!-- اختيار من متعدد -->
+        <div class="quiz-card">
+            <h3>🧠 اختار الإجابة الصحيحة</h3>
+            <p>
+                ما الخاصية التي نستخدمها لتغيير لون النص؟
+            </p>
+            <button class="option" data-answer="wrong">background-color</button>
+            <button class="option" data-answer="correct">color</button>
+            <button class="option" data-answer="wrong">font-size</button>
+        </div>
+        <!-- السؤال الكتابي -->
+        <div class="question-card">
+            <h3>✍️ سؤال</h3>
+            <p>
+                إذا أردنا تغيير لون النص إلى الأحمر،
+                فما اسم اللون الذي نكتبه في الكود؟
+            </p>
+            <input
+                type="text"
+                class="answer-input"
+                placeholder="اكتبي الإجابة هنا..."
+            >
+        </div>
+        <!-- الفيديو -->
+        <div class="video-card">
+            <h3>🎥 شرح بالفيديو</h3>
+            <p>
+                شاهد الشرح حتى تتعلم كيفية تغيير لون النص
+            </p>
+             <a href="https://youtu.be/5oLDoyENKXs" target="_blank"
+            rel="noopener noreferrer">اضغط هنا</a>
+
+        </div>
+        <!-- إنجاز المهمة -->
+        <div class="complete-task">
+            <button type="button">
+                أنجزت المهمة
+            </button>
+        </div>
+    </div>
+</div>
+
+
+<!-- =========================
+     CSS LESSON 3
+     تغيير حجم النص
+     ========================= -->
+<div class="lesson">
+    <!-- رقم الدرس -->
+         <div id="css-lesson-3"></div>
+
+    <div class="lesson-number">3</div>
+    <div class="lesson-content">
+        <!-- عنوان الدرس -->
+        <h2>🔠 الدرس الثالث: تغيير حجم النص</h2>
+        <p>
+           
+            سوف نتعلم كيف نتحكم بحجم النص  
+           (font-size.)
+        </p>
+        <!-- المثال -->
+        <div class="code-example">
+            <h3>💡 مثال عملي</h3>
+            <p>
+                إذا اردنا جعل حجم العنوان 30 بكسل،
+                نكتب الكود التالي:
+            </p>
+            <pre><code>h1 {
+    font-size: 30px;
+}
+p {
+    font-size: 18px;
+}</code></pre>
+            <p>
+                <strong>font-size</strong>
+                هي الخاصية المسؤولة عن حجم النص،
+                أما <strong>px</strong> فتعني وحدة قياس
+                تُستخدم لتحديد الحجم.
+            </p>
+        </div>
+        <!-- الاختيار من متعدد -->
+        <div class="quiz-card">
+            <h3>🧠 اختار الإجابة الصحيحة</h3>
+            <p>
+                ما الخاصية التي نستخدمها لتغيير حجم النص؟
+            </p>
+                <button class="option" data-answer="wrong">background-color</button>
+            <button class="option" data-answer="correct">color</button>
+            <button class="option" data-answer="wrong">font-size</button>
+        </div>
+
+
+
+        </div>
+        <!-- السؤال -->
+        <div class="question-card">
+            <h3>✍️ سؤال تطبيقي</h3>
+            <p>
+                إذا أردنا أن يكون حجم النص 24 بكسل،
+                فما الكود الذي نكتبه لتغيير حجمه؟
+            </p>
+            <input
+                type="text"
+                class="answer-input"
+                placeholder="اكتبي الكود هنا..."
+            >
+        </div>
+        <!-- الفيديو -->
+        <div class="video-card">
+            <h3>🎥 شرح بالفيديو</h3>
+            <p>
+                شاهد شرح الخاصية وتعرّف على طريقة
+                التحكم بأحجام النصوص في صفحات الويب.
+            </p>
+            <a
+                href="https://www.youtube.com/results?search_query=شرح+CSS+font-size+بالعربي"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                مشاهدة شروحات تغيير حجم النص على يوتيوب
+            </a>
+        </div>
+        <!-- إكمال الدرس -->
+        <div class="complete-task">
+            
+        </div>
+    </div>
+</div>
+
+<!-- =========================
+     CSS LESSON 4
+     إضافة الحدود
+     ========================= -->
+<div class="lesson">
+        <div id="css-lesson-4"></div>
+
+    <div class="lesson-number">4</div>
+    <div class="lesson-content">
+        <h2>📦 الدرس الرابع: إضافة حدود للعناصر</h2>
+        <p>
+            تعلمنا بالدروس السابقة كيف نغيّر خلفية الصفحة
+            ولون النص وحجمه، والان سوف نتعلم شلون نضيف
+            حدود حول العناصر باستخدام الخاصية border.
+             نستخدمها حتى نميّز العناوين والفقرات
+            ونجعل شكل الصفحة أكثر ترتيبًا.
+        </p>
+        <!-- المثال -->
+        <div class="code-example">
+            <h3>💡 مثال عملي</h3>
+            <p>
+                إذا نريد نضيف حدود حول عنوان، نكتب الكود التالي:
+            </p>
+            <pre><code>h1 {
+    border: 2px solid blue;
+}</code></pre>
+            <p>
+                <strong>border</strong>
+                هي الخاصية المسؤولة عن إضافة الحدود،
+                والرقم <strong>2px</strong> يحدد سُمك الحد،
+                أما <strong>solid</strong> فتعني أن الحد متصل.
+            </p>
+        </div>
+        <!-- اختيار من متعدد -->
+        <div class="quiz-card">
+            <h3>🧠 اختاري الإجابة الصحيحة</h3>
+            <p>
+                نريد إضافة إطار حول فقرة في الصفحة،
+                أي خاصية نستخدم؟
+            </p>
+             <button class="option"data-answer="wrong">font-weigth</button>
+            <button class="option" data-answer="correct">border</button>
+            <button class="option" data-answer="wrong">font-size</button>
+        </div>
+              
+        </div>
+        <!-- السؤال -->
+        <div class="question-card">
+            <h3>✍️ سؤال تطبيقي</h3>
+            <p>
+                إذا أردنا إضافة حد متصل بسُمك 3 بكسل
+                حول العنوان، فما الكود الذي نكتبه داخل CSS؟
+            </p>
+            <input
+                type="text"
+                class="answer-input"
+                placeholder="اكتبي الإجابة هنا..."
+            >
+        </div>
+        <!-- الفيديو -->
+        <div class="video-card">
+            <h3>🎥 شرح بالفيديو</h3>
+            <p>
+             شاهد شروحات خاصية الحدود وتعرف
+                على طريقة استخدامها في تصميم صفحات الويب.
+            </p>
+            <a
+                href="https://www.youtube.com/results?search_query=شرح+خاصية+border+في+CSS+بالعربي"
+                target="_blank"
+                rel="noopener noreferrer">
+                مشاهدة الشرح على يوتيوب
+            </a>
+        </div>
+        <!-- إكمال الدرس -->
+        <div class="complete-task">
+            <button type="button">
+                أنجزت المهمة
+            </button>
+        </div>
+    </div>
+</div>
+        
+<!-- =========================
+     CSS LESSON 5
+     تدوير الزوايا
+     ========================= -->
+<div class="lesson">
+    <!-- رقم الدرس -->
+         <div id="css-lesson-5"></div>
+
+    <div class="lesson-number">5</div>
+    <div class="lesson-content">
+        <!-- عنوان الدرس -->
+        <h2>📦 الدرس الخامس: تدوير زوايا العناصر</h2>
+        <p>
+            تعلمنا بالدرس السابق      
+    اضافة حدود حول العناصر،
+            والان  نتعلم كيف نجعل زواياها دائرية باستخدام
+            الخاصية border-radius.
+            نستطيع نستخدمها حتى نجعل الصناديق والأزرار
+            أكثر جمالًا ونعومة بالتصميم.
+        </p>
+        <!-- المثال -->
+        <div class="code-example">
+            <h3>💡 مثال عملي</h3>
+            <p>
+                إذا نريد جعل زوايا صندوق دائرية بمقدار 15 بكسل،
+                نكتب الكود التالي:
+            </p>
+            <pre><code>div {
+    border: 2px solid white;
+    border-radius: 15px;
+}</code></pre>
+            <p>
+                <strong>border-radius</strong>
+                هي الخاصية المسؤولة عن تدوير الزوايا،
+                وكلما زادت قيمتها زاد تدوير الزوايا غالبًا.
+            </p>
+        </div>
+        <!-- اختيار من متعدد -->
+        <div class="quiz-card">
+            <h3>🧠 اختاري الإجابة الصحيحة</h3>
+            <p>
+                اذا نريد زوايا الصندوق دائرية،
+                أي خاصية تستخدمين؟
+            </p>
+            <label class="option">
+                <input type="radio" name="q5" value="wrong">
+                <span>border</span>
+            </label>
+            <label class="option">
+                <input type="radio" name="q5" value="correct">
+                <span>border-radius</span>
+            </label>
+            <label class="option">
+                <input type="radio" name="q5" value="wrong">
+                <span>font-size</span>
+            </label>
+            
+        </div>
+        <!-- السؤال -->
+        <div class="question-card">
+            <h3>✍️ سؤال تطبيقي</h3>
+            <p>
+                اكتب الكود الذي يجعل زوايا العنصر دائرية
+                بمقدار 20 بكسل.
+            </p>
+            <input
+                type="text"
+                class="answer-input"
+                placeholder="اكتبي الإجابة هنا..."
+            >
+        </div>
+        <!-- الفيديو -->
+        <div class="video-card">
+            <h3>🎥 شرح بالفيديو</h3>
+            <p>
+                شاهد شروحات تدوير الزوايا وتعرّفي على
+                كيفية تطبيق الخاصية في تصميم المواقع.
+            </p>
+            <a
+                href="https://www.youtube.com/results?search_query=شرح+CSS+border-radius+بالعربي"
+                target="_blank"
+                rel="noopener noreferrer">
+                مشاهدة الشرح على يوتيوب
+            </a>
+        </div>
+        <!-- إكمال الدرس -->
+        <div class="complete-task">
+            <button type="button">
+                أنجزت المهمة
+            </button>
+        </div>
+    </div>
+</div>
+<!-- =========================
+     CSS LESSON 6
+     المسافة الداخلية
+     ========================= -->
+<div class="lesson">
+        <div id="css-lesson-6"></div>
+
+    <div class="lesson-number">6</div>
+    <div class="lesson-content">
+        <h2>📏 الدرس السادس: المسافة الداخلية</h2>
+        <p>
+            تعلمنا بالدروس السابقة كيف ننسّق العناصر،
+            والان نتعلم كيف نترك مسافة بين محتوى العنصر
+            وحدوده باستخدام الخاصية .
+             المسافة تجعل النص ما يكون ملاصق للحدود،
+            وتساعدنا نحصل على تصميم مرتب ومريح للعين.
+        </p>
+        <!-- المثال -->
+        <div class="code-example">
+            <h3>💡 مثال عملي</h3>
+            <p>
+                إذا نريد نترك مسافة داخلية مقدارها 20 بكسل،
+                نكتب الكود التالي:
+            </p>
+            <pre><code>div {
+    border: 2px solid white;
+    padding: 20px;
+}</code></pre>
+            <p>
+                <strong>padding</strong>
+                تحدد المسافة بين محتوى العنصر وحدوده.
+                وكلما زادت القيمة، زادت المسافة الداخلية.
+            </p>
+        </div>
+        <!-- اختيار من متعدد -->
+        <div class="quiz-card">
+            <h3>🧠 اختاري الإجابة الصحيحة</h3>
+            <p>
+                نريد نترك مسافة بين النص وحدود الصندوق،
+                أي خاصية نستخدم؟
+            </p>
+            <label class="option">
+                <input type="radio" name="q6" value="wrong">
+                <span>border-radius</span>
+            </label>
+            <label class="option">
+                <input type="radio" name="q6" value="correct">
+                <span>padding</span>
+            </label>
+            <label class="option">
+                <input type="radio" name="q6" value="wrong">
+                <span>color</span>
+            </label>
+            
+        </div>
+        <!-- السؤال -->
+        <div class="question-card">
+            <h3>✍️ سؤال تطبيقي</h3>
+            <p>
+                اكتبي سطر  الذي يضيف مسافة داخلية
+                مقدارها 30 بكسل للعنصر.
+            </p>
+            <input
+                type="text"
+                class="answer-input"
+                placeholder="اكتبي الإجابة هنا..."
+            >
+        </div>
+        <!-- الفيديو -->
+        <div class="video-card">
+            <h3>🎥 شرح بالفيديو</h3>
+            <p>
+                شاهد الشروحات حتى تتعرفي على طريقة
+                استخدام المسافة الداخلية في تصميم المواقع.
+            </p>
+            <a
+                href="https://www.youtube.com/results?search_query=شرح+CSS+padding+بالعربي"
+                target="_blank"
+                rel="noopener noreferrer">
+                مشاهدة الشرح على يوتيوب
+            </a>
+        </div>
+        <!-- إكمال الدرس -->
+        <div class="complete-task">
+            <button type="button">
+                أنجزت المهمة
+            </button>
+        </div>
+    </div>
+</div>
+
+
+<!-- =========================
+     CSS LESSON 7
+     المسافة الخارجية
+     ========================= -->
+<div class="lesson">
+    <div id="css-lesson-7"></div>
+    <div class="lesson-number">7</div>
+    <div class="lesson-content">
+        <h2>↔️ الدرس السابع: المسافة الخارجية</h2>
+        <p>
+            تعلمنا بالدرس السابق كيف نترك مسافة داخل العنصر
+              والان  نتعلم كيف نترك
+            مسافة بين العنصر والعناصر المجاورة إله
+            باستخدام الخاصية margin.
+            هذة الخاصية تساعدنا نرتب العناصر ونحدد المسافات
+            بينها حتى يكون تصميم الصفحة منظمًا.
+        </p>
+        <!-- المثال -->
+        <div class="code-example">
+            <h3>💡 مثال عملي</h3>
+            <p>
+                إذا نريد نترك مسافة خارجية مقدارها 20 بكسل
+                حول العنصر، نكتب الكود التالي:
+            </p>
+            <pre><code>div {
+    margin: 20px;
+}</code></pre>
+            <p>
+                <strong>margin</strong>
+                تحدد المسافة خارج حدود العنصر،
+                وتساعدنا نترك فراغًا بينه وبين العناصر الأخرى.
+            </p>
+        </div>
+        <!-- اختيار من متعدد -->
+        <div class="quiz-card">
+            <h3>🧠 اختاري الإجابة الصحيحة</h3>
+            <p>
+                نريد نترك مسافة بين صندوق وصندوق آخر،
+                أي خاصية نستخدم؟
+            </p>
+            <label class="option">
+                <input type="radio" name="q7" value="wrong">
+                <span>padding</span>
+            </label>
+            <label class="option">
+                <input type="radio" name="q7" value="correct">
+                <span>margin</span>
+            </label>
+            <label class="option">
+                <input type="radio" name="q7" value="wrong">
+                <span>border-radius</span>
+            </label>
+            
+        </div>
+        <!-- السؤال -->
+        <div class="question-card">
+            <h3>✍️ سؤال تطبيقي</h3>
+            <p>
+                اكتبي سطر  الذي يضيف مسافة خارجية
+                مقدارها 30 بكسل حول العنصر.
+            </p>
+            <input
+                type="text"
+                class="answer-input"
+                placeholder="اكتبي الإجابة هنا..."
+            >
+        </div>
+        <!-- الفيديو -->
+        <div class="video-card">
+            <h3>🎥 شرح بالفيديو</h3>
+            <p>
+                شاهد الشروحات حتى تتعرفي على طريقة
+                استخدام المسافة الخارجية في تصميم المواقع.
+            </p>
+            <a
+                href="https://www.youtube.com/results?search_query=شرح+CSS+margin+بالعربي"
+                target="_blank"
+                rel="noopener noreferrer">
+                مشاهدة الشرح على يوتيوب
+            </a>
+        </div>
+        <!-- إكمال الدرس -->
+        <div class="complete-task">
+            <button type="button">
+                أنجزت المهمة
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- كارد إكمال كورس CSS والترحيب بـ JavaScript -->
+<div class="welcome-card">
+    <div class="icon">
+        ✔️
+    </div>  
+
+    <p>
+       مبروك لقد انهيت الاساسيات واصبحت جاهز للانتقال للخطوة 🎉
+    </p>
+    <div class="course-transition">
+        <div class="course-css">
+            <p>{ }</p>
+            <strong>CSS</strong>
+            <p>تصميم وتنسيق</p>
+            
+            <button onclick="document.getElementById('css-lesson-1').scrollIntoView({ behavior: 'smooth' });">العودة الىcss</button>
+
+
+        </div>
+        <div class="course-javascript">
+            <p>JS</p>
+            <strong>JavaScript</strong>
+            <p>التفاعل والحركة</p>
+           
+<button onclick="document.getElementById('js-lesson-1').scrollIntoView({ behavior: 'smooth' });">ابدأ رحلتي مع JavaScript</button>
+
+        </div>
+    </div>
+</div>
+
+<!-- =========================
+     JS LESSON 1
+     مقدمة JavaScript
+     ========================= -->
+<div  id="js-lesson-1"   class="lesson js-lesson">
+    <div class="lesson-number">1</div>
+    <div class="lesson-content">
+        <h2>⚡ الدرس الأول: مقدمة JavaScript</h2>
+        <p>
+            تعلمنا كيف نبني هيكل صفحة الويب،
+              كيف ننسق الصفحة ونغير ألوانها.
+            الان نتعلم    
+            جعل الصفحة تتفاعل مع المستخدم وتنفذ الأوامر.
+        </p>
+        <!-- المثال -->
+        <div class="code-example">
+            <h3>💡 مثال عملي</h3>
+            <p>
+                   حتى نظهر رسالة للمستخدم.
+                انظر للمثال التالي:
+            </p>
+            <pre><code>alert("أهلاً بيكِ في كورس JavaScript!");</code></pre>
+            <p>
+                الأمر <strong>alert</strong> يعرض رسالة داخل نافذة
+                صغيرة، والنص الموجود بين علامتي التنصيص هو الرسالة
+                اللي راح تظهر.
+            </p>
+        </div>
+        <!-- الاختبار -->
+        <div class="quiz-card">
+            <h3>🧠 اختار الإجابة الصحيحة</h3>
+            <p>
+                ماهي وظيفة الأمر alert  
+            </p>
+            <button class="option" data-answer="wrong">تغيير لون خلفية الصفحه</button>
+            <button class="option" data-answer="correct">اضهار رسالة داخل نافذه صغيرة</button>
+            <button class="option" data-answer="wrong">انشاء عنوان للصفحه</button>
+        </div>
+        
+        <!-- السؤال -->
+        <div class="question-card">
+            <h3>✍️ سؤال تطبيقي</h3>
+            <p>
+                اكتب الأمر اللي نستخدمه حتى نظهر رسالة
+                تحتوي على النص Hello World.
+            </p>
+            <input
+                type="text"
+                class="answer-input"
+                placeholder="اكتبي الإجابة هنا..."
+            >
+        </div>
+        <!-- الفيديو -->
+        <div class="video-card">
+            <h3>🎥 شرح بالفيديو</h3>
+            <p>
+                شاهد شرح مقدمة JavaScript وتعرف على
+                طريقة كتابة أول أمر بهذه اللغة.
+            </p>
+            <a
+                href="https://www.youtube.com/results?search_query=شرح+مقدمة+JavaScript+للمبتدئين+بالعربي"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                مشاهدة شرح الدرس على يوتيوب ▶
+            </a>
+        </div>
+        <!-- إكمال الدرس -->
+        <div class="complete-task">
+            <button type="button">
+                أنجزت المهمة
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- =========================
+     JS LESSON 2
+     المتغيرات
+     ========================= -->
+<div  id="js-lesson-2"   class="lesson js-lesson">
+    <div class="lesson-number">2</div>
+    <div class="lesson-content">
+        <h2>💛 الدرس الثاني: المتغيرات في JavaScript</h2>
+        <p>
+            تخيل لدينا صندوق نخزن بداخله معلومة ونرجع
+            نستخدمها بأي وقت نحتاجها.
+            المتغير يشبه هذا الصندوق، نخزن بداخله
+            معلومات مثل الاسم أو العمر أو الدرجة.
+        </p>
+        <!-- المثال -->
+        <div class="code-example">
+            <h3>💡 مثال عملي</h3>
+            <p>
+                حتى نخزن اسمًا داخل متغير، نستخدم الكلمة
+                <strong>let</strong>، وبعدها نكتب اسم المتغير
+                والقيمة اللي نريد نخزنها.
+            </p>
+            <pre><code>let studentName = "Shereen";
+alert(studentName);</code></pre>
+            <p>
+                بهذا المثال خزّنا الاسم داخل متغير اسمه
+                <strong>studentName</strong>،
+                وبعدها استخدمنا <strong>alert</strong>
+                حتى نعرض الاسم داخل نافذة صغيرة.
+            </p>
+        </div>
+        <!-- الاختبار -->
+        <div class="quiz-card">
+            <h3>🧠 اختار الإجابة الصحيحة</h3>
+            <p>
+             ماهي فائدة المتغير  
+            </p>
+            <button class="option" data-answer="wrong">تغيير خلفية الصفحه فقط</button>
+            <button class="option" data-answer="correct">خزن معلومات واستخدامها عند الحاجه</button>
+            <button class="option" data-answer="wrong">اضافة صةره الى الصفحه فقط</button>
+        
+        </div>
+        <!-- السؤال -->
+        <div class="question-card">
+            <h3>✍️ سؤال تطبيقي</h3>
+            <p>
+                اكتب سطرًا يخزن الرقم 20 داخل متغير اسمه age.
+            </p>
+            <input
+                type="text"
+                class="answer-input"
+                placeholder="اكتبي الإجابة هنا..."
+            >
+        </div>
+        <!-- الفيديو -->
+        <div class="video-card">
+            <h3>🎥 شرح بالفيديو</h3>
+            <p>
+                شاهد شرح المتغيرات وتعلمي شلون نخزن
+                المعلومات ونستخدمها داخل البرنامج.
+            </p>
+            <a
+                href="https://www.youtube.com/results?search_query=شرح+المتغيرات+في+JavaScript+للمبتدئين+بالعربي"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                مشاهدة شرح الدرس على يوتيوب ▶
+            </a>
+        </div>
+        <!-- إكمال الدرس -->
+        <div class="complete-task">
+            <button type="button">
+                أنجزت المهمة
+            </button>
+        </div>
+    </div>
+</div>
+
+
+<!-- =========================
+     JS LESSON 3
+     أنواع البيانات
+     ========================= -->
+<div id="js-lesson-3" class="lesson js-lesson">
+    <div class="lesson-number">3</div>
+    <div class="lesson-content">
+        <h2>✨ الدرس الثالث: أنواع البيانات</h2>
+        <p>
+            تعلمنا بالدرس السابق كيف نخزن المعلومات داخل المتغيرات.
+            الان نتعرف على أنواع المعلومات التي نستطيع نخزنها.
+            ليس كل القيم متشابهة؛ بعضها نصوص، وبعضها أرقام،
+            وبعضها يمثل إجابة صحيحة أو خاطئة.
+        </p>
+        <!-- المثال -->
+        <div class="code-example">
+            <h3>💡 مثال عملي</h3>
+            <p>
+                انظر للأمثلة التالية، كل متغير يخزن نوعًا مختلفًا من البيانات:
+            </p>
+            <pre><code>let studentName = "Shereen";
+let studentAge = 20;
+let isStudent = true;
+alert(studentName);
+alert(studentAge);
+alert(isStudent);</code></pre>
+            <p>
+                <strong>النص:</strong>
+                مثل الاسم، ونكتبه بين علامتي تنصيص.
+            </p>
+            <p>
+                <strong>الرقم:</strong>
+                مثل العمر، ونكتبه بدون علامات تنصيص.
+            </p>
+            <p>
+                <strong>القيمة المنطقية:</strong>
+                   وتعني صحيح، أو  وتعني خطأ.
+            </p>
+        </div>
+        <!-- الاختبار -->
+        <div class="quiz-card">
+            <h3>🧠 اختار الإجابة الصحيحة</h3>
+            <p>
+                ماهي نوع البيانات للقيمة التالية؟
+                <strong>let age = 18;</strong>
+            </p>
+
+           <button class="option" data-answer="wrong">  نص </button>
+            <button class="option" data-answer="correct">  رقم </button>
+            <button class="option" data-answer="wrong"> قيمه منطقيه  </button>
+
+
+        </div>
+        <!-- السؤال -->
+        <div class="question-card">
+            <h3>✍️ سؤال تطبيقي</h3>
+            <p>
+                إذا اردنا نخزن اسم الطالبة Sara داخل متغير اسمه
+                student، كيف نكتب السطر البرمجي؟
+            </p>
+            <input
+                type="text"
+                class="answer-input"
+                placeholder="اكتب الإجابة هنا..."
+            >
+        </div>
+        <!-- الفيديو -->
+        <div class="video-card">
+            <h3>🎥 شرح بالفيديو</h3>
+            <p>
+                شاهد شرح أنواع البيانات حتى تتعرفين على
+                الفرق بين النصوص والأرقام والقيم المنطقية.
+            </p>
+            <a
+                href="https://www.youtube.com/results?search_query=شرح+أنواع+البيانات+في+JavaScript+للمبتدئين+بالعربي"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                مشاهدة شرح الدرس على يوتيوب ▶
+            </a>
+        </div>
+        <!-- إكمال الدرس -->
+        <div class="complete-task">
+            <button type="button">
+                أنجزت المهمة
+            </button>
+        </div>
+    </div>
+</div>
+
+
+<!-- =========================
+     JS LESSON 4
+     العمليات الحسابية
+     ========================= -->
+<div  id="js-lesson-4"  class="lesson js-lesson">
+    <div class="lesson-number">4</div>
+    <div class="lesson-content">
+        <h2>🧮 الدرس الرابع: العمليات الحسابية</h2>
+        <p>
+            نستطيع نستخدم JavaScript حتى نجري عمليات حسابية
+            مثل الجمع والطرح والضرب والقسمة.
+                وبدل ما نحسب النتائج يدويًا، نجعل البرنامج 
+        </p>
+        <!-- المثال -->
+        <div class="code-example">
+            <h3>💡 مثال عملي</h3>
+            <p>
+                 لنخزن رقمين داخل متغيرين، وبعدها نجري
+                العمليات الحسابية عليهم:
+            </p>
+            <pre><code>let num1 = 10;
+let num2 = 5;
+let sum = num1 + num2;
+let difference = num1 - num2;
+let product = num1 * num2;
+let quotient = num1 / num2;
+alert(sum);
+alert(difference);
+alert(product);
+alert(quotient);</code></pre>
+            <p>
+                <strong>الجمع (+):</strong>
+                يجمع الرقمين، والناتج 15.
+            </p>
+            <p>
+                <strong>الطرح (-):</strong>
+                يطرح الرقم الثاني من الأول، والناتج 5.
+            </p>
+            <p>
+                <strong>الضرب (*):</strong>
+                يضرب الرقمين، والناتج 50.
+            </p>
+            <p>
+                <strong>القسمة (/):</strong>
+                يقسم الرقم الأول على الثاني، والناتج 2.
+            </p>
+        </div>
+        <!-- الاختبار -->
+        <div class="quiz-card">
+            <h3>🧠 اختار الإجابة الصحيحة</h3>
+            <p>
+                إذا كتبنا الكود التالي، شنو راح تكون النتيجة؟
+                <strong>let result = 8 + 4;</strong>
+            </p>
+            <button class="option" data-answer="wrong">4</button>
+            <button class="option" data-answer="correct">12</button>
+            <button class="option" data-answer="wrong">32</button>
+        
+        </div>
+        <!-- السؤال -->
+        <div class="question-card">
+            <h3>✍️ سؤال تطبيقي</h3>
+            <p>
+                لدينا المتغيران التاليان:
+                <strong>let a = 12;</strong>
+                و<strong>let b = 3;</strong>
+                اكتب سطرًا برمجيًا يخزن ناتج ضربهما داخل
+                متغير اسمه result.
+            </p>
+            <input
+                type="text"
+                class="answer-input"
+                placeholder="اكتب الإجابة هنا..."
+            >
+        </div>
+        <!-- الفيديو -->
+        <div class="video-card">
+            <h3>🎥 شرح بالفيديو</h3>
+            <p>
+                شاهد شرح العمليات الحسابية وتعلمي شلون
+                تستخدمين رموز الجمع والطرح والضرب والقسمة.
+            </p>
+            <a
+                href="https://www.youtube.com/results?search_query=شرح+العمليات+الحسابية+في+JavaScript+للمبتدئين+بالعربي"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                مشاهدة شرح الدرس على يوتيوب ▶
+            </a>
+        </div>
+        <!-- إكمال الدرس -->
+        <div class="complete-task">
+            <button type="button">
+                أنجزت المهمة
+            </button>
+        </div>
+    </div>
+</div>
+
+
+<!-- =========================
+     JS LESSON 5
+     تغيير محتوى الصفحة
+     ========================= -->
+<div  id="js-lesson-5"   class="lesson js-lesson">
+    <div class="lesson-number">5</div>
+    <div class="lesson-content">
+        <h2>✨ الدرس الخامس والأخير: تغيير محتوى الصفحة</h2>
+        <p>
+            نستطيع نستخدم JavaScript حتى نغيّر النصوص الموجودة
+            بصفحة الويب بسهولة، مثل تغيير عنوان أو عبارة
+            بدون الحاجة إلى إعادة كتابة صفحة  كاملة.
+        </p>
+        <!-- المثال -->
+        <div class="code-example">
+            <h3>💡 مثال بسيط</h3>
+            <p>
+                نستخدم الخاصية textContent حتى نغيّر النص
+                الموجود داخل أحد عناصر الصفحة.
+            </p>
+            <pre><code>&lt;h2 id="title"&gt;أهلاً بيكِ&lt;/h2&gt;
+&lt;script&gt;
+document.getElementById("title").textContent =
+    "مرحباً بكِ في موقعي!";
+&lt;/script&gt;</code></pre>
+            <p>
+                <strong>getElementById:</strong>
+                تحدد العنصر حسب المعرّف الخاص بيه.
+            </p>
+            <p>
+                <strong>textContent:</strong>
+                تغيّر النص الموجود داخل العنصر.
+            </p>
+        </div>
+        <!-- الاختبار -->
+        <div class="quiz-card">
+            <h3>🧠 اختار الإجابة الصحيحة</h3>
+            <p>
+                ماهي وظيفة الخاصية textContent؟
+            </p>
+                 
+<button class="option" data-answer="wrong">تغيير لون الخلفيه</button>
+            <button class="option" data-answer="correct">تغيير النص داخل العنصر</button>
+            <button class="option" data-answer="wrong">اضافه صوره الى صفحه</button>
+        
+
+
+
+        </div>
+        <!-- السؤال -->
+        <div class="question-card">
+            <h3>✍️ سؤال تطبيقي</h3>
+            <p>
+                إذا كان عدنا عنصر معرّفه message،
+                ماهي الخاصية اللي نستخدمها حتى نغيّر النص الموجود بداخله؟
+            </p>
+            <input
+                type="text"
+                class="answer-input"
+                placeholder="اكتب الإجابة هنا..."
+            >
+        </div>
+        <!-- الفيديو -->
+        <div class="video-card">
+            <h3>🎥 شرح بالفيديو</h3>
+            <p>
+                شاهد شرح طريقة تحديد عناصر الصفحة وتغيير محتواها
+                باستخدام JavaScript.
+            </p>
+            <a
+                href="https://www.youtube.com/results?search_query=شرح+textContent+في+JavaScript+بالعربي"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                مشاهدة شرح الدرس على يوتيوب ▶
+            </a>
+        </div>
+        <!-- إكمال الدرس -->
+        <div class="complete-task">
+            <button type="button">
+                أنجزت المهمة
+            </button>
+        </div>
+    </div>
+</div>
+
+
+<!-- قسم شهادة CodeStep -->
+<section id="certificateArea" class="certificate-section">
+
+    <!-- علامة الشهادة الظاهرة دائمًا -->
+    <div class="certificate-form">
+        <div class="certificate-medal">
+            <span>🎓</span>
+            
+        </div>
+
+        <h2>شهادة إكمال جميع الكورسات</h2>
+
+        <p>
+            أكمل كورسات HTML وCSS وJavaScript،
+            واحصل على شهادة إنجازك من CodeStep.
+        </p>
+
+        <div class="completed-courses">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+        </div>
+
+        <p id="certificateStatus">
+            أكمل جميع الدروس حتى تتمكن من إصدار شهادتك.
+        </p>
+
+        <label for="studentName">اسم الطالب/الطالبة</label>
+
+        <input
+            type="text"
+            id="studentName"
+            placeholder="اكتب الاسم الكامل"
+        >
+
+        <button type="button" id="createCertificate" disabled>
+            إصدار الشهادة
+        </button>
+    </div>
+
+    <!-- ورقة الشهادة -->
+    <div id="certificate" class="certificate" hidden>
+
+        <div class="certificate-top">
+            <div class="certificate-logo">
+                <div class="logo-symbol">&lt;/&gt;</div>
+                <div class="logo-name">Code<span>Step</span></div>
+                <small>Learn • Practice • Grow</small>
+            </div>
+
+            <div class="certificate-motto">
+                خطوة صغيرة اليوم ..<br>
+                تصنع مستقبلًا كبيرًا غدًا
+                
+            </div>
+        </div>
+
+        <div class="certificate-medal">
+            <span>🎓</span>
+            
+        </div>
+
+        <h1 class="certificate-title">
+            شهادة إكمال جميع الكورسات
+        </h1>
+
+        <p class="certificate-intro">
+            تُمنح هذه الشهادة إلى الطالب/الطالبة
+        </p>
+
+        <h2 id="certificateStudent" class="certificate-student"></h2>
+
+        <div class="gold-divider">
+            <span>◆</span>
+        </div>
+
+        <p class="certificate-success">
+            لإكمال جميع الكورسات التعليمية بنجاح
+        </p>
+
+        <div class="completed-courses">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+        </div>
+
+        <p class="certificate-message">
+            نتمنى لكم دوام النجاح والتقدم في مسيرتكم التعليمية
+        </p>
+
+        <div class="certificate-footer">
+            <div class="certificate-date">
+                <span>تاريخ إصدار الشهادة</span>
+                <strong id="certificateDate"></strong>
+            </div>
+
+            <div class="certificate-signature">
+                <strong>CodeStep</strong>
+                <span>Your Skills .. Your Future</span>
+            </div>
+        </div>
+
+        <button
+            type="button"
+            id="printCertificate"
+            class="print-certificate"
+        >
+            طباعة الشهادة أو حفظها PDF
+        </button>
+
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="script.js"></script>
+    </body>
+</html>
